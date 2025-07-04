@@ -5,6 +5,17 @@ let msg = document.querySelector("#msg")
 let msgContainer = document.querySelector(".msg-container")
 let userPoint = document.querySelector("#user-score")
 let computerPoint = document.querySelector("#computer-score")
+let resetButton = document.querySelector("#reset");
+
+resetButton.addEventListener("click", () => {
+    userScore = 0;
+    compScore = 0;
+    userPoint.innerText = 0;
+    computerPoint.innerText = 0;
+    msg.innerText = "Play your move"
+    msg.style.backgroundColor = 'black'
+
+})
 
 choices.forEach((choice) => {
     choice.addEventListener("click", () => {

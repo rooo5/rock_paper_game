@@ -63,3 +63,14 @@ img {
     padding: 0.7rem;
     border-radius: 2rem;
 }
+
+#reset {
+    background-color: #081b31;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 9rem;
+}
