@@ -36,7 +36,7 @@ const showWinner = (userWin, userChoice, comChoice) => {
         msg.style.backgroundColor = 'green'
     } else {
         computerPoint.innerText = compScore += 1;
-        msg.innerText = `You Lost ${userChoice} beats ${comChoice}`
+        msg.innerText = `You Lost ${comChoice} beats ${userChoice}`
         msg.style.backgroundColor = 'red'
     }
 }
